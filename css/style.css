@@ -1,0 +1,134 @@
+/*
+General Css
+=============*/
+body {
+    background-color: #F1F4F9;
+    color: #414a51;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+a:hover {
+    text-decoration: none;
+}
+/*
+Navbar Css
+=============*/
+#zt-nav {
+    background-color: #222222;
+}
+#zt-nav img {
+    margin: 0px auto;
+}
+/*
+Post Css
+=============*/
+#zt-left .zt-contentwrap {
+    background-color: #FFFFFF;
+    margin: 0 15px;
+    padding: 60px;
+}
+#zt-left .zt-heading a, #zt-left .zt-heading-homepage a {
+    text-decoration: none;
+    color: #414a51;
+    font-size: 36px;
+    font-weight: 500;
+}
+#zt-left .zt-heading a:hover, #zt-left .zt-heading-homepage a:hover {
+    text-decoration: none;
+    opacity: 0.8;
+}
+#zt-left .zt-heading-homepage a {
+    font-weight: 400;
+}
+#zt-left .zt-heading-homepage {
+    margin: 20px 0 20px 20px;
+}
+#zt-left .zt-heading-homepage span {
+    color: #a7aeb3;
+    margin-right: 10px;
+}
+
+#zt-left .zt-postsummary {
+    color: #a7aeb3;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 48px;
+    letter-spacing: 0.8px;
+    margin: 20px 0 30px 0;
+    border-top: 2px solid #ddd;
+}
+#zt-left .zt-postimage img {
+    display: block;
+    margin: 0 auto;
+}
+#zt-left .zt-postimage a:hover img {
+    opacity: 0.9;
+}
+#zt-left .zt-post {
+    padding: 38px 0;
+}
+#zt-left .zt-post p {
+    color: #414a51;
+    font-size: 1.1em;
+}
+/*
+PostNav Css
+=============*/
+#zt-left .zt-postnav {
+    margin-top: 20px;
+    padding-top: 30px;
+    border-top: 2px solid #ddd;
+}
+#zt-left .zt-postprev {
+    display: inline-block;
+} 
+#zt-left .zt-postnext {
+    display: inline-block;
+    text-align: right;
+    float: right;
+}
+#zt-left .zt-postnav a:hover {
+    color: #414a51;
+    text-decoration: none;
+}
+
+/*
+Sidebar Css
+=============*/
+#zt-sidebar .zt-sidebarwrap {
+    margin: 40px auto;
+}
+#zt-sidebar a.zt-sponsor:hover {
+    text-decoration: none;
+}
+#zt-sidebar img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+#zt-sidebar .zt-sponsor p {
+    color: #a09897;
+    font-size: 16px;
+    margin-top: 8px;
+}
+#zt-sidebar p.zt-sponsor-title {
+    font-size: 14px;
+    line-height: 20px;
+}
+/*
+Footer Css
+=============*/
+#zt-footer {
+    background-color: #222;
+}
+#zt-footer a {
+    color: #a09897;
+}
+#zt-footer a:hover {
+    color: #337ab7;
+}
+#zt-footer ul {
+    margin: 30px auto;
+}
+#zt-footer ul li {
+    margin: 0 5px;
+}
